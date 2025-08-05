@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="css/skins/color-1.css"
+      class="alternate-style"
+      title="color-1"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/skins/color-2.css"
+      class="alternate-style"
+      title="color-2"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/skins/color-3.css"
+      class="alternate-style"
+      title="color-3"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/skins/color-4.css"
+      class="alternate-style"
+      title="color-4"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/skins/color-5.css"
+      class="alternate-style"
+      title="color-5"
+    />
+
+    <link rel="stylesheet" href="css/style-switcher.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+     <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+  </head>
+  <body>
+     <!-- Welcome Popup -->
+    <div class="welcome-popup" id="welcomePopup">
+        <div class="popup-content">
+            <h2>Welcome!</h2>
+            <p>Let's explore my portfolio and discover amazing projects together!</p>
+            <button class="popup-btn" onclick="closeWelcomePopup()">Let's Explore</button>
+        </div>
+    </div>
+
+    <!-- WhatsApp Icon -->
+    <div class="whatsapp-icon" onclick="openWhatsApp()">
+        <i class='bx bxl-whatsapp'></i>
+    </div>
+
+    <!-- Chatbot Icon -->
+    <div class="chatbot-icon" onclick="openChatbot()">
+        <i class='bx bx-message-dots'></i>
+    </div>
+    <header>
+      <div class="logo">
+        <a href="#home"><span>D</span>hvani.</a>
+      </div>
+      <ul class="navlist">
+        <li><a href="/" style="--i: 1">Home</a></li>
+        <li><a href="#about" style="--i: 2">About</a></li>
+        <li><a href="#skills" style="--i: 4">Skills</a></li>
+         <li><a href="#project" style="--i: 5">Projects</a></li>
+         <li><a href="#certificate" style="--i: 5">Certificates</a></li>
+        <li><a href="#blog" style="--i: 6">Blog</a></li>
+        <li><a href="#contact" style="--i: 7">Contact Me</a></li>
+      </ul>
+      <div id="menu-icon" class="menu-icon">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+    </header>
+
+    <section id="home" class="home">
+      <div class="home-content">
+        <div class="devinfo">
+          <!-- <div class="hello">Hello I'm <span>Dhvani Kakadiya</span></div> -->
+          <h3 class="hello">Hello I'm <span>Dhvani Kakadiya</span></h3>
+          <h3 class="my-profession">
+            I'm a <span class="typing">Web developer</span>
+          </h3>
+          <div class="moreabout">
+           I am a Computer Engineer who is passionate about coding. I am a dedicated, self-assured, and eager learner who is constantly looking for opportunities to pick up new skills. I have a deep interest in Mathematics and Physics, especially Astronomy. I aim to apply my knowledge and problem-solving abilities to challenging domains. 
+          </div>
+          <div class="btn-box">
+            <a href="/Books/A resume.pdf" class="btn" target="_blanck">Download CV</a>
+            <a href="#contact" class="btn">Hire Me!</a>
+          </div>
+        </div>
+
+        <div class="social-icons">
+          <a href="https://github.com/Lvgs3033" target="_blanck"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/dhvani-kakadiya-2811a8252" target="_blanck"><i class='bx bxl-linkedin-square'></i></i></a>
+          <a href="Notavilable.html"  target="_blanck"><i class="bx bxl-instagram-alt"></i></a>
+          <a href="/Notavilable.html" target="_blanck"><i class="bx bxl-facebook-circle"></i></a>
+        </div>
+      </div>
+      <div class="home-image">
+        <div class="img-box">
+          <img src="img/p1.png" alt="Dhvani K" />
+        </div>
+      </div>
+    </section>
+
+     <section class="about section" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="section-title padd-15">
+            <h2>About Me</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="about-content padd-15">
+            <div class="row">
+              <div class="about-text padd-15">
+                <h3>
+                  I'm Dhvani Kakadiya... 
+                </h3>
+                <p>
+                  Hello! I'm Dhvani Kakadiya, a passionate software developer
+                  with a diverse skill set in programming and web development.
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="personal-info padd-15">
+                <div class="row">
+                  <div class="info-item padd-15">
+                    <p>Birthday: <span>29 april 2005</span></p>
+                  </div>
+                  <div class="info-item padd-15">
+                    <p>Age: <span>20</span></p>
+                  </div>
+                  <div class="info-item padd-15">
+                    <p>Website: <span>NOT AVILABLE</span></p>
+                  </div>
+                  <div class="info-item padd-15">
+                    <p>E-mail: <span>dhvani1215@gmail.com</span></p>
+                  </div>
+                  <div class="info-item padd-15">
+                    <p>Degree: <span>CS</span></p>
+                  </div>
+                  <div class="info-item padd-15">
+                    <p>Phone: <span>9773001459</span></p>
+                  </div>
+                  <div class="info-item padd-15">
+                    <p>City: <span>Surat</span></p>
+                  </div>
+                  <div class="info-item padd-15">
+                    <p>Freelance: <span>Avilable</span></p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="education padd-15">
+                    <h3 class="title">Education</h3>
+                    <div class="row">
+                      <div class="timeline-box padd-15">
+                        <div class="timeline shadow-dark">
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="bx bxs-calendar"></i>2020-2021
+                            </h3>
+                            <h4 class="timeline-title">My High-Schooling</h4>
+                            <p class="timeline-text">
+                              I completed my high schooling at Radiant
+                              International School in Surat.I selected science
+                              as a stream because I like math.I also cracked
+                              comepititve exams jee.
+                            </p>
+                          </div>
+
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="bx bxs-calendar"></i>2022-2026
+                            </h3>
+                            <h4 class="timeline-title">
+                              Bechlore in computer science
+                            </h4>
+                            <p>
+                              I am doing my graduation in computer science at present. I am pursuing my graduation fromGujarat Technical University (GTU).
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="experience padd-15">
+                    <h3 class="title">Experience</h3>
+                    <div class="row">
+                      <div class="timeline-box padd-15">
+                        <div class="timeline shadow-dark">
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="bx bxs-calendar"></i>2020-2024
+                            </h3>
+                            <h4 class="timeline-title">Starting project</h4>
+                            <p class="timeline-text">
+                            I started my first programming language during vacations. I had started with C++. I already knew about C, HTML, and CSS at that time. I learned about web development, data science, AI/ML, and Flutter a little bit.
+                            </p>
+                          </div>
+
+
+                            <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="bx bxs-calendar"></i>2025
+                            </h3>
+                            <h4 class="timeline-title">
+                              Internship at Canopas
+                            </h4>
+                            <p class="timeline-text">
+                             I was offered an internship as a Web Developer Intern at Canopas, a tech-driven company located in Surat. The internship spanned from 2nd July to 2nd August 2025, providing me with an opportunity to gain practical experience and refine my web development skills in a professional environment. Throughout the internship, I worked on real-world projects under the guidance of industry professionals, enhancing both my technical capabilities and workplace professionalism. This hands-on experience significantly contributed to my growth as a developer and deepened my understanding of modern web technologies.
+                            </p>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="download padd-15">
+                <div class="home-image">
+                  <div class="img-box">
+                    <img src="img/p2.png" alt="Dhvani K" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <section id="skills" class="skills">
+        <div class="main-text">
+            <div class="container">
+        <div class="row">
+          <div class="section-title padd-15">
+            <h2>My Skills</h2>
+          </div>
+        </div>
+            <div class="skill-main">
+                <div class="skill-left">
+                    <h3>Technical skills</h3>
+                    <div class="skill-bar">
+                        <div class="info">
+                            <p>Frontend</p>
+                            <p>95%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="html"></span>
+                        </div>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="info">
+                            <p>Backend</p>
+                            <p>65%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="javascript"></span>
+                        </div>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="info">
+                            <p>Mern Stack</p>
+                            <p>70%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="java"></span>
+                        </div>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="info">
+                            <p>Java</p>
+                            <p>70%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="css"></span>
+                        </div>
+                    </div>
+
+                     <div class="skill-bar">
+                        <div class="info">
+                            <p>Python</p>
+                            <p>80%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="python"></span>
+                        </div>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="info">
+                            <p>Flutter</p>
+                            <p>40%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="flutter"></span>
+                        </div>
+                    </div>
+
+                     <div class="skill-bar">
+                        <div class="info">
+                            <p>C/C++</p>
+                            <p>70%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="c"></span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="skill-right">
+                    <h3>Technologies</h3>
+                    <div class="professional">
+                        <div class="box">
+                            <div class="circle" data-dots="50" data-percent="90"></div>
+                            <div class="text">
+                                <big>90%</big>
+                                <small>Web Development</small>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <div class="circle" data-dots="10" data-percent="70"></div>
+                            <div class="text">
+                                <big>70%</big>
+                                <small>Data Science</small>  
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <div class="circle" data-dots="80" data-percent="80"></div>
+                            <div class="text">
+                                <big>80%</big>
+                                <small>DSA,oops</small>     
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <div class="circle" data-dots="80" data-percent="80"></div>
+                            <div class="text">
+                                <big>80%</big>
+                                <small>AI/ML</small>
+                                
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="portfolio section" id="project">
+      <div class="container">
+        <div class="btn-box formBtn">
+          <a href="#project" class="btn" data-filter="all">Web Development</a>
+          <a href="/project1.html" class="btn" data-filter=".product">AI/ML Project</a>
+          <a href="/project2.html" class="btn" data-filter=".inter">Leetcode</a>
+          <a href="/project3.html" class="btn" data-filter=".web">Game</a>
+        </div>
+        <div class="row" id="web">
+          <div class="section-title padd-15">
+            <h2>Web development Projects</h2>
+          </div>
+        </div>
+        <div class="row">
+          <!-- start -->
+          <div class="portfolio-item  portfolio-gallery padd-15">
+            <div class="portfolio-item-inner port-box mix product shadow-dark">
+              <div class="portfolio img">
+                <img src="img/c.png" alt="" height="400px" width="100%"/>
+                <div class="port-content">
+                  <h3>Code-Compiler</h3>
+                  <a href="https://code-complier-g7oq.vercel.app/" target="_blank"><i class='bx bx-link-external'></i></a>
+              </div>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+
+          <!-- start -->
+          <div class="portfolio-item portfolio-gallery padd-15">
+            <div class="portfolio-item-inner port-box mix product shadow-dark">
+              <div class="portfolio img">
+                <img src="img/e.png" alt="" height="400px" width="100%"/>
+                <div class="port-content">
+                  <h3>Resume Analyzer</h3>
+                  <a href="https://aaa-rrrrr-f4rs.vercel.app/" target="_blank"><i class='bx bx-link-external'></i></a>
+              </div>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+
+           <!-- start -->
+           <div class="portfolio-item portfolio-gallery padd-15">
+            <div class="portfolio-item-inner port-box mix product shadow-dark">
+              <div class="portfolio img">
+                <img src="img/b.png" alt="" height="400px" width="100%"/>
+                <div class="port-content">
+                  <h3>Blog website</h3>
+                  <a href="https://blog-navy-six-79.vercel.app/" target="_blank"><i class='bx bx-link-external'></i></a>
+              </div>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+
+            <!-- start -->
+           <div class="portfolio-item portfolio-gallery padd-15">
+            <div class="portfolio-item-inner port-box mix product shadow-dark">
+              <div class="portfolio img">
+                <img src="img/cr.png" alt="" height="400px" width="100%"/>
+                <div class="port-content">
+                  <h3>Creepy Website</h3>
+                  <a href="https://v0-creepy-site-website.vercel.app/" target="_blank"><i class='bx bx-link-external'></i></a>
+              </div>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+
+           <!-- start -->
+           <div class="portfolio-item portfolio-gallery padd-15">
+            <div class="portfolio-item-inner port-box mix product shadow-dark">
+              <div class="portfolio img">
+                <img src="img/co.png" alt="" height="400px" width="100%"/>
+                <div class="port-content">
+                  <h3>CosmicCalender</h3>
+                  <a href="https://cosmicclender-hdaa.vercel.app/" target="_blank"><i class='bx bx-link-external'></i></a>
+              </div>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+
+           <!-- start -->
+           <div class="portfolio-item portfolio-gallery padd-15">
+            <div class="portfolio-item-inner  port-box mix product  shadow-dark">
+              <div class="portfolio img">
+                <img src="img/e1.png" alt="" height="400px" width="100%"/>
+                <div class="port-content">
+                  <h3>Expense Tracker</h3>
+                  <a href="https://expsense-tracker-1bhh.vercel.app/dashboard" target="_blank"><i class='bx bx-link-external'></i></a>
+              </div>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+
+          <!-- start -->
+          <div class="portfolio-item portfolio-gallery padd-15">
+            <div class="portfolio-item-inner port-box mix product shadow-dark">
+              <div class="portfolio img">
+                <img src="img/S.png" alt="" height="400px" width="100%"/>
+                <div class="port-content">
+                  <h3>Skill Send</h3>
+                  <a href="https://skillsend-4tv4.vercel.app/" target="_blank"><i class='bx bx-link-external'></i></a>
+              </div>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+
+            <!-- start -->
+           <div class="portfolio-item portfolio-gallery padd-15">
+            <div class="portfolio-item-inner port-box mix product shadow-dark">
+              <div class="portfolio img">
+                <img src="img/cake.png" alt="" height="400px" width="100%"/>
+                <div class="port-content">
+                  <h3>Recipy Website</h3>
+                  <a href="https://sensational-muffin-4f83b7.netlify.app/" target="_blank"><i class='bx bx-link-external'></i></a>
+              </div>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+
+
+           <!-- start -->
+           <div class="portfolio-item portfolio-gallery padd-15">
+            <div class="portfolio-item-inner port-box mix product shadow-dark">
+              <div class="portfolio img">
+                <img src="img/task.png" alt="" height="400px" width="100%"/>
+                <div class="port-content">
+                  <h3>Task Managment</h3>
+                  <a href="https://dsa-project-4smq.vercel.app/" target="_blank"><i class='bx bx-link-external'></i></a>
+              </div>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+
+         
+        </div>
+      </div>
+    </section>
+    </section>
+
+     <!-- Certificates Section -->
+    <section class="portfolio section" id="certificate">
+      <div class="container">
+         <div class="btn-box formBtn">
+          <a href="#certificate" class="btn" data-filter="all">Internship</a>
+          <a href="/certi2.html" class="btn" data-filter="all">Web Development</a>
+          <a href="/certi1.html" class="btn" data-filter=".product">AI/ML</a>
+          <a href="/certi3.html" class="btn" data-filter=".web">Other</a>
+        </div>
+        <div class="row">
+          <div class="section-title padd-15">
+            <h2>Internship</h2>
+          </div>
+        </div>
+        <div class="row">
+          <!-- start -->
+          <div class="portfolio-item  portfolio-gallery padd-15">
+            <div class="portfolio-item-inner port-box mix product shadow-dark">
+              <div class="portfolio img">
+                <img src="img/c1.png" alt="" height="400px" width="100%"/>
+                <div class="port-content">
+                  <h3>Google cloud skillboost</h3>
+                  <a href="https://www.cloudskillsboost.google/public_profiles/2a953300-883e-4739-82d6-ed61cb7493d1" target="_blank"><i class='bx bx-link-external'></i></a>
+              </div>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+
+          <!-- start -->
+          <div class="portfolio-item  portfolio-gallery padd-15">
+            <div class="portfolio-item-inner port-box mix product shadow-dark">
+              <div class="portfolio img">
+                <img src="img/II.png" alt="" height="400px" width="100%"/>
+                <div class="port-content">
+                  <h3>Offer Letter</h3>
+                  <a href="https://www.linkedin.com/posts/dhvani-kakadiya-2811a8252_offer-letter-activity-7346110887155367938-gpgC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5SDYEBPKTWm7PIT0sJObLfxf9SpjbLlT0" target="_blank"><i class='bx bx-link-external'></i></a>
+              </div>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+
+          <!-- start -->
+          <div class="portfolio-item  portfolio-gallery padd-15">
+            <div class="portfolio-item-inner port-box mix product shadow-dark">
+              <div class="portfolio img">
+                <img src="img/II.png" alt="" height="400px" width="100%"/>
+                <div class="port-content">
+                  <h3>Completion certificate</h3>
+                  <a href="https://www.linkedin.com/posts/dhvani-kakadiya-2811a8252_offer-letter-activity-7346110887155367938-gpgC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5SDYEBPKTWm7PIT0sJObLfxf9SpjbLlT0" target="_blank"><i class='bx bx-link-external'></i></a>
+              </div>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+
+
+        </div>
+      </div>
+    </section>
+    </section>
+
+    <section id="blog" class="blog section">
+        <div class="main">
+            <div class="blogcontainer">
+                <div class="row">
+                    <div class="section-title padd-15">
+                      <h2>Blogs</h2>
+                    <!-- <h1>Blogs by Dhvani</h1> -->
+                    </div>
+                  </div>
+                <div class="blogItem">
+                    <h2>Learn Javascript - in fun way!</h2>
+                    <p>JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else.</p>
+                    <div class="btn-box formBtn">
+                      <a href="https://github.com/Lvgs3033/Material" type="submit" class="btn" target="_blanck">Read more</a>
+                      <a href="https://github.com/Lvgs3033/Material" type="submit" class="btn" target="_blanck">Read book</a>
+                  </div>
+                </div>
+
+                <div class="blogItem">
+                    <h2>Java - in fun way!</h2>
+                    <p>Java is a multi-platform, object-oriented, and network-centric language that can be used as a platform in itself. It is a fast, secure, reliable programming language for coding everything from mobile apps and enterprise software to big data applications and server-side technologies.</p>
+                    <div class="btn-box formBtn">
+                      <a href="https://github.com/Lvgs3033/Material" type="submit" class="btn" target="_blanck">Read more</a>
+                      <a href="https://github.com/Lvgs3033/Material" type="submit" class="btn" target="_blanck">Read book</a>
+                  </div>
+                </div>
+
+                <div class="blogItem">
+                    <h2>Dsa - in fun way!</h2>
+                    <p>Data Structures and Algorithms (DSA) is a fundamental part of Computer Science that teaches you how to think and solve complex problems systematically. Using the right data structure and algorithm makes your program run faster, especially when working with lots of data.</p>
+                    <div class="btn-box formBtn">
+                      <a href="https://github.com/Lvgs3033/Material" type="submit" class="btn" target="_blanck">Read more</a>
+                      <a href="https://github.com/Lvgs3033/Material" type="submit" class="btn" target="_blanck">Read book</a>
+                  </div>
+                </div>
+
+                <div class="blogItem">
+                    <h2>Android development - in fun way!</h2>
+                    <p>Android is a software package and linux based operating system for mobile devices such as tablet computers and smartphones.</p>
+                    <div class="btn-box formBtn">
+                      <a href="https://github.com/Lvgs3033/Material" type="submit" class="btn" target="_blanck">Read more</a>
+                      <a href="https://github.com/Lvgs3033/Material" type="submit" class="btn" target="_blanck">Read book</a>
+                  </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="section-title padd-15">
+                  <h2>Contact Me</h2>
+                </div>
+              </div>
+              <h3 class="contact-title padd-15">Have You Any Questions?</h3>
+              <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>
+              <div class="row">
+
+                <!-- start -->
+                 <div class="contact-info-item padd-15">
+                    <div class="icon"><i class='bx bxs-phone'></i></div>
+                    <h4>Call Us On</h4>
+                    <p>+91 9773001459</p>
+                 </div>
+                <!-- end -->
+
+                  <!-- start -->
+                  <div class="contact-info-item padd-15">
+                    <div class="icon"><i class='bx bx-location-plus' ></i></div>
+                    <h4>Wrok From</h4>
+                    <p>India</p>
+                 </div>
+                <!-- end -->
+
+                 <!-- start -->
+                <div class="contact-info-item padd-15">
+                    <div class="icon"><i class='bx bxl-twitter' ></i></div>
+                    <h4>Twitter</h4>
+                    <p>Not avilable</p>
+                    <!-- <a href="#"></a> -->
+                 </div>
+                  <!-- end -->
+
+                   <!-- start -->
+                <div class="contact-info-item padd-15">
+                    <div class="icon"><i class='bx bx-globe' ></i></div>
+                    <h4>Website</h4>
+                    <p>Not avilable</p>
+                 </div>
+                  <!-- end -->
+              </div>
+
+              <h3 class="contact-title padd-15">SEND ME YOUR MESSAGES AND QUERIES</h3>
+              <h4 class="contact-sub-title padd-15">I'M VERY REPOSNSIVE TO MESSAGES</h4>
+
+              <form action="/post" method="POST">
+                <input type="text" name="name" placeholder="Name" required />
+                <input type="email" name="email" placeholder="Email" required />
+                <input type="text" name="address" placeholder="Address" />
+                <input type="text" name="phone" placeholder="Phone" />
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <div class="btn-box formBtn">
+                  <button type="submit" class="btn">Send Message</button>
+              </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer
+    <footer>
+      <p>Copyright &copy; 2023 by DK || All Right Reserved.</p>
+      <a href="/"><i class="bx bx-up-arrow-alt"></i></a>
+    </footer> -->
+
+    <!-- Enhanced Footer -->
+    <footer class="enhanced-footer footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Me</h3>
+                <p>I'm Dhvani Kakadiya, a passionate Web Developer, Data Scientist, and AI/ML Developer.</p>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/dhvani-kakadiya-2811a8252" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/Lvgs3033" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="#" target="_blank"><i class='bx bxl-instagram'></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home"><i class='bx bx-chevron-right'></i>Home</a></li>
+                    <li><a href="#about"><i class='bx bx-chevron-right'></i>About</a></li>
+                    <li><a href="#skills"><i class='bx bx-chevron-right'></i>Skills</a></li>
+                    <li><a href="#certificates"><i class='bx bx-chevron-right'></i>Certificates</a></li>
+                    <li><a href="#project"><i class='bx bx-chevron-right'></i>Projects</a></li>
+                    <li><a href="#blog"><i class='bx bx-chevron-right'></i>Blog</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <ul>
+                    <li><a href="tel:+919773001459" ><i class='bx bx-phone'></i>+91 9773001459</a></li>
+                    <li><a href="mailto:dhvani1215@gmail.com"><i class='bx bx-envelope'></i>dhvani1215@gmail.com</a></li>
+                    <li><a href="#"><i class='bx bx-location-plus'></i>Surat, Gujarat, India</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="project1.html"><i class='bx bx-chevron-right'></i>AI Development</a></li>
+                    <li><a href="#web"><i class='bx bx-chevron-right'></i>Web Development</a></li>
+                      <li><a href="project3.html"><i class='bx bx-chevron-right'></i>Games</a></li>
+                    <li><a href="#"><i class='bx bx-chevron-right'></i>Data Analysis</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Dhvani Kakadiya. All Rights Reserved.</p>
+            <a href="/"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+
+
+    <!-- style switcher start -->
+    <div class="style-switcher">
+      <div class="style-switcher-toggler s-icon">
+        <i class="bx bx-cog"></i>
+      </div>
+      <div class="day-night s-icon">
+        <i class="bx"></i>
+      </div>
+      <h4>Theme Colors</h4>
+      <div class="colors">
+        <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+        <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+        <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+        <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+        <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+      </div>
+    </div>
+
+    <!-- Theam -->
+    <script>
+      const alternateStyles = document.querySelectorAll(".alternate-style");
+
+      function setActiveStyle(color) {
+        alternateStyles.forEach((style) => {
+          if (color === style.getAttribute("title")) {
+            style.removeAttribute("disabled");
+          } else {
+            style.setAttribute("disabled", "true");
+          }
+        });
+      }
+    </script>
+
+    <!-- Day and night -->
+    <script>
+      const dayNight = document.querySelector(".day-night");
+      dayNight.addEventListener("click", () => {
+        dayNight.querySelector("i").classList.toggle("bxs-sun");
+        dayNight.querySelector("i").classList.toggle("bxs-moon");
+        document.body.classList.toggle("dark");
+      });
+      window.addEventListener("load", () => {
+        if (document.body.classList.contains("dark")) {
+          dayNight.querySelector("i").classList.add("bxs-sun");
+        } else {
+          dayNight.querySelector("i").classList.add("bxs-moon");
+        }
+      });
+    </script>
+
+    <script>
+       // Welcome Popup
+      window.addEventListener('load', function() {
+        setTimeout(function() {
+          document.getElementById('welcomePopup').classList.add('show');
+        }, 1000);
+      });
+
+      function closeWelcomePopup() {
+        document.getElementById('welcomePopup').classList.remove('show');
+      }
+
+      // WhatsApp functionality
+      function openWhatsApp() {
+        window.open('https://wa.me/919773001459?text=Hello! I would like to connect with you.', '_blank');
+      }
+
+      // Chatbot functionality
+      function openChatbot() {
+        alert('Chatbot feature coming soon! For now, please use the contact form or WhatsApp.');
+      }
+
+    </script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"
+      integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="script.js"></script>
+
+    <script src="//code.tidio.co/lfyy8susbcqwijvgmclg8dux2tsvlxhy.js" async></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+  </body>
+</html>
